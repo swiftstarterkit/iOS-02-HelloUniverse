@@ -1,0 +1,16 @@
+echo "========================================================================"
+echo "  Initialize $0 script..."
+echo "========================================================================"
+echo " "
+git add .
+git commit -m "$1"
+git push -u origin master
+echo " "
+echo " "
+echo " Committed this message successfully:"
+echo "\"$1\""
+echo " "
+echo " $0 Process Complete!"
+echo " "
+echo " "
+echo " "
